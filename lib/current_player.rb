@@ -12,5 +12,8 @@ end
 def currenr_player(board)
   i = turn_count(board)
   if i % 2 == 0
-     retuen 
+     return "O"
+    else 
+     return "X"
+     
 end
