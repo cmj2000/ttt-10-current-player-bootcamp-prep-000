@@ -10,7 +10,7 @@ def turn_count(board)
 end
 
 def currenr_player(board)
-  i = 
-  
-  
+  i = turn_count(board)
+  if i % 2 == 0
+     retuen 
 end
