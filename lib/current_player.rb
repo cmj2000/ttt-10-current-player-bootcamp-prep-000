@@ -12,9 +12,9 @@ end
 def currenr_player(board)
   i = turn_count(board) + 1
   if i  % 2 == 0
-     result = "O"
+     return "O"
     else 
-     result = "X"
+     return = "X"
   end
-  return result
+  #return result
 end
